@@ -1,0 +1,187 @@
+/*
+	Don't need this class right now, but let's save it.
+	We can use it in future updates. 
+	Plugin adopters can also style this text using a child theme.
+*/
+.d12-sc-text {
+	}
+
+/* Nutshell */
+.d12-nutshell {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/acorn.png) no-repeat 10px 10px;
+	}
+.d12-nutshell p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Updates */
+.d12-update {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/update.png) no-repeat 10px 10px;
+	}
+.d12-update p:first-child {
+	color: #404777;
+	border-color: #F6F7F8;
+	}
+
+/* Attachments */
+.d12-attach {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/attach.png) no-repeat 10px 10px;
+	}
+.d12-attach p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Deletion */
+.d12-delete {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/delete.png) no-repeat 10px 10px;
+	}
+.d12-delete p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Part of a Series */
+.d12-part {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/cog.png) no-repeat 10px 10px;
+	}
+.d12-part p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Mentions */
+.d12-mention {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/mentions.png) no-repeat 10px 10px;
+	}
+.d12-mention p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Warning */
+.d12-warning {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/warning.png) no-repeat 10px 10px;
+	}
+.d12-warning p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Important */
+.d12-important {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/important.png) no-repeat 10px 10px;
+	}
+.d12-important p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Notice */
+.d12-notice {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/notice.png) no-repeat 10px 10px;
+	}
+.d12-notice p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Error */
+.d12-error {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/error.png) no-repeat 10px 10px;
+	}
+.d12-error p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Caution */
+.d12-caution {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/caution.png) no-repeat 10px 10px;
+	}
+.d12-caution p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Archive */
+.d12-archive {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/archive.png) no-repeat 10px 10px;
+	}
+.d12-archive p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Support */
+.d12-support {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/support.png) no-repeat 10px 10px;
+	}
+.d12-support p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Contact */
+.d12-contact {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/contact.png) no-repeat 10px 10px;
+	}
+.d12-contact p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Global */
+.d12-global {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/global.png) no-repeat 10px 10px;
+	}
+.d12-global p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Green */
+.d12-green {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/green.png) no-repeat 10px 10px;
+	}
+.d12-green p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Accept */
+.d12-accept {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/okay.png) no-repeat 10px 10px;
+	}
+.d12-accept p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Stats */
+.d12-stats {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/statistics.png) no-repeat 10px 10px;
+	}
+.d12-stats p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}

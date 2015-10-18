@@ -1,0 +1,18 @@
+.d12-block {
+	margin: 10px auto;
+	width: 85%;
+	border: solid 1px #000;
+	border-radius: 0px;
+	border-left-width: 4px;
+	padding: 10px 10px 10px 54px;
+	}
+.d12-block p:first-child {
+	margin-top: 0px;
+	border-bottom: solid 1px #000;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	font-size: 1.2em;
+	}
+.d12-block ul {
+	margin-left: 14px !important;
+	}

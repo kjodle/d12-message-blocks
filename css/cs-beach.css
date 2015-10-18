@@ -1,0 +1,187 @@
+/*
+	Don't need this class right now, but let's save it.
+	We can use it in future updates. 
+	Plugin adopters can also style this text using a child theme.
+*/
+.d12-sc-text {
+	}
+
+/* Nutshell */
+.d12-nutshell {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/acorn.png) no-repeat 10px 10px;
+	}
+.d12-nutshell p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Updates */
+.d12-update {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/update.png) no-repeat 10px 10px;
+	}
+.d12-update p:first-child {
+	color: #8A643F;
+	border-color: #FBF5DD;
+	}
+
+/* Attachments */
+.d12-attach {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/attach.png) no-repeat 10px 10px;
+	}
+.d12-attach p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Deletion */
+.d12-delete {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/delete.png) no-repeat 10px 10px;
+	}
+.d12-delete p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Part of a Series */
+.d12-part {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/cog.png) no-repeat 10px 10px;
+	}
+.d12-part p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Mentions */
+.d12-mention {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/mentions.png) no-repeat 10px 10px;
+	}
+.d12-mention p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Warning */
+.d12-warning {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/warning.png) no-repeat 10px 10px;
+	}
+.d12-warning p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Important */
+.d12-important {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/important.png) no-repeat 10px 10px;
+	}
+.d12-important p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Notice */
+.d12-notice {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/notice.png) no-repeat 10px 10px;
+	}
+.d12-notice p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Error */
+.d12-error {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/error.png) no-repeat 10px 10px;
+	}
+.d12-error p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Caution */
+.d12-caution {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/caution.png) no-repeat 10px 10px;
+	}
+.d12-caution p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Archive */
+.d12-archive {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/archive.png) no-repeat 10px 10px;
+	}
+.d12-archive p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Support */
+.d12-support {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/support.png) no-repeat 10px 10px;
+	}
+.d12-support p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Contact */
+.d12-contact {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/contact.png) no-repeat 10px 10px;
+	}
+.d12-contact p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Global */
+.d12-global {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/global.png) no-repeat 10px 10px;
+	}
+.d12-global p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Green */
+.d12-green {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/green.png) no-repeat 10px 10px;
+	}
+.d12-green p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Accept */
+.d12-accept {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/okay.png) no-repeat 10px 10px;
+	}
+.d12-accept p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}
+
+/* Stats */
+.d12-stats {
+	border-color: #8A643F;
+	background: #FBF5DD url(../images/statistics.png) no-repeat 10px 10px;
+	}
+.d12-stats p:first-child {
+	color: #8A643F;
+	border-color: #8A643F;
+	}

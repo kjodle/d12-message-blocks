@@ -1,0 +1,187 @@
+/*
+	Don't need this class right now, but let's save it.
+	We can use it in future updates. 
+	Plugin adopters can also style this text using a child theme.
+*/
+.d12-sc-text {
+	}
+
+/* Nutshell */
+.d12-nutshell {
+	border-color: #444;
+	background: #fff url(../images/acorn.png) no-repeat 10px 10px;
+	}
+.d12-nutshell p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Updates */
+.d12-update {
+	border-color: #444;
+	background: #fff url(../images/update.png) no-repeat 10px 10px;
+	}
+.d12-update p:first-child {
+	color: #444;
+	border-color: #fff;
+	}
+
+/* Attachments */
+.d12-attach {
+	border-color: #444;
+	background: #fff url(../images/attach.png) no-repeat 10px 10px;
+	}
+.d12-attach p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Deletion */
+.d12-delete {
+	border-color: #444;
+	background: #fff url(../images/delete.png) no-repeat 10px 10px;
+	}
+.d12-delete p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Part of a Series */
+.d12-part {
+	border-color: #444;
+	background: #fff url(../images/cog.png) no-repeat 10px 10px;
+	}
+.d12-part p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Mentions */
+.d12-mention {
+	border-color: #444;
+	background: #fff url(../images/mentions.png) no-repeat 10px 10px;
+	}
+.d12-mention p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Warning */
+.d12-warning {
+	border-color: #444;
+	background: #fff url(../images/warning.png) no-repeat 10px 10px;
+	}
+.d12-warning p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Important */
+.d12-important {
+	border-color: #444;
+	background: #fff url(../images/important.png) no-repeat 10px 10px;
+	}
+.d12-important p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Notice */
+.d12-notice {
+	border-color: #444;
+	background: #fff url(../images/notice.png) no-repeat 10px 10px;
+	}
+.d12-notice p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Error */
+.d12-error {
+	border-color: #444;
+	background: #fff url(../images/error.png) no-repeat 10px 10px;
+	}
+.d12-error p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Caution */
+.d12-caution {
+	border-color: #444;
+	background: #fff url(../images/caution.png) no-repeat 10px 10px;
+	}
+.d12-caution p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Archive */
+.d12-archive {
+	border-color: #444;
+	background: #fff url(../images/archive.png) no-repeat 10px 10px;
+	}
+.d12-archive p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Support */
+.d12-support {
+	border-color: #444;
+	background: #fff url(../images/support.png) no-repeat 10px 10px;
+	}
+.d12-support p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Contact */
+.d12-contact {
+	border-color: #444;
+	background: #fff url(../images/contact.png) no-repeat 10px 10px;
+	}
+.d12-contact p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Global */
+.d12-global {
+	border-color: #444;
+	background: #fff url(../images/global.png) no-repeat 10px 10px;
+	}
+.d12-global p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Green */
+.d12-green {
+	border-color: #444;
+	background: #fff url(../images/green.png) no-repeat 10px 10px;
+	}
+.d12-green p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Accept */
+.d12-accept {
+	border-color: #444;
+	background: #fff url(../images/okay.png) no-repeat 10px 10px;
+	}
+.d12-accept p:first-child {
+	color: #444;
+	border-color: #444;
+	}
+
+/* Stats */
+.d12-stats {
+	border-color: #444;
+	background: #fff url(../images/statistics.png) no-repeat 10px 10px;
+	}
+.d12-stats p:first-child {
+	color: #444;
+	border-color: #444;
+	}
