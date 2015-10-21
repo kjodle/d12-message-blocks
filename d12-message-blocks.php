@@ -3,7 +3,7 @@
  * Plugin Name: d12 Message Blocks
  * Plugin URI: http://kjodle.net/wordpress/d12-message-blocks/
  * Description: Adds shortcodes for message blocks.
- * Version: 2.0
+ * Version: 2.1
  * Author: Kenneth John Odle
  * Author URI: http://kjodle.net/
  * Text Domain: d12-message-blocks
@@ -133,33 +133,37 @@ add_action( 'admin_enqueue_scripts', 'd12_shortcodes_admin_styles' );
 
 /* Nutshell */
 function d12_nutshell( $atts, $content= NULL) {
-	echo '<div class="d12-block d12-nutshell"><div class="d12-sc-text"><p><strong>';
-	_e( 'This article in a nutshell:', 'd12-message-blocks' );
-	echo '</strong></p>' . $content . '</div></div>';
+	$filestring = '<div class="d12-block d12-nutshell"><div class="d12-sc-text"><p><strong>' .
+	__( 'This article in a nutshell:', 'd12-message-blocks' )
+	. '</strong></p>' . $content . '</div></div>';
+	return $filestring;
 }
 add_shortcode( 'd12-nutshell' , 'd12_nutshell' );
 
 /* Update */
 function d12_update( $atts, $content= NULL) {
-	echo '<div class="d12-block d12-update"><div class="d12-sc-text"><p><strong>'; 
-	_e( 'Update Information:', 'd12-message-blocks' );
-	echo '</strong></p>' . $content . '</div></div>';
+	$filestring = '<div class="d12-block d12-update"><div class="d12-sc-text"><p><strong>' .
+	__( 'Update Information:', 'd12-message-blocks' )
+	. '</strong></p>' . $content . '</div></div>';
+	return $filestring;
 }
 add_shortcode( 'd12-update' , 'd12_update' );
 
 /* Attach */
 function d12_attach( $atts, $content= NULL) {
-	echo '<div class="d12-block d12-attach"><div class="d12-sc-text"><p><strong>';
-	_e( 'Downloads:', 'd12-message-blocks' );
-	echo '</strong></p>' . $content . '</div></div>';
+	$filestring = '<div class="d12-block d12-attach"><div class="d12-sc-text"><p><strong>' .
+	__( 'Downloads:', 'd12-message-blocks' )
+	. '</strong></p>' . $content . '</div></div>';
+	return $filestring;
 }
 add_shortcode( 'd12-attach' , 'd12_attach' );
 
 /* Delete */
 function d12_delete( $atts, $content= NULL) {
-	echo '<div class="d12-block d12-delete"><div class="d12-sc-text"><p><strong>';
-	_e( 'This page has been marked for deletion.', 'd12-message-blocks' );
-	echo '</strong></p>' . $content . '</div></div>';
+	$filestring = '<div class="d12-block d12-delete"><div class="d12-sc-text"><p><strong>' .
+	__( 'This page has been marked for deletion.', 'd12-message-blocks' )
+	. '</strong></p>' . $content . '</div></div>';
+	return $filestring;
 }
 add_shortcode( 'd12-delete' , 'd12_delete' );
 
@@ -170,65 +174,73 @@ function d12_part( $atts, $content= NULL) {
 			'series' => '',
 		), $atts )
 	);
-	echo '<div class="d12-block d12-part"><div class="d12-sc-text"><p><strong>';
-	printf(__( 'This page is part of a series on %s', 'd12-message-blocks' ), $series );
-	echo '.</strong></p>' . $content . '</div></div>	';
+	$filestring = '<div class="d12-block d12-part"><div class="d12-sc-text"><p><strong>' .
+	printf(__( 'This page is part of a series on %s', 'd12-message-blocks' ), $series )
+	. '.</strong></p>' . $content . '</div></div>	';
+	return $filestring;
 }
 add_shortcode( 'd12-part' , 'd12_part' );
 
 /* Mentions */
 function d12_mentions( $atts, $content= NULL) {
-	echo '<div class="d12-block d12-mention"><div class="d12-sc-text"><p><strong>';
-	_e( 'This page has been mentioned here:', 'd12-message-blocks' );
-	echo '</strong></p>' . $content . '</div></div>';
+	$filestring = '<div class="d12-block d12-mention"><div class="d12-sc-text"><p><strong>' .
+	__( 'This page has been mentioned here:', 'd12-message-blocks' )
+	. '</strong></p>' . $content . '</div></div>';
+	return $filestring;
 }
 add_shortcode( 'd12-mentions' , 'd12_mentions' );
 
 /* Warning */
 function d12_warning( $atts, $content= NULL) {
-	echo '<div class="d12-block d12-warning"><div class="d12-sc-text"><p><strong>';
-	_e ( 'Warning!', 'd12-message-blocks' );
-	echo '</strong></p>' . $content . '</div></div>';
+	$filestring = '<div class="d12-block d12-warning"><div class="d12-sc-text"><p><strong>' .
+	__ ( 'Warning!', 'd12-message-blocks' )
+	. '</strong></p>' . $content . '</div></div>';
+	return $filestring;
 }
 add_shortcode( 'd12-warning' , 'd12_warning' );
 
 /* Important */
 function d12_important( $atts, $content= NULL) {
-	echo '<div class="d12-block d12-important"><div class="d12-sc-text"><p><strong>';
-	_e ( 'Important!', 'd12-message-blocks' );
-	echo '</strong></p>' . $content . '</div></div>';
+	$filestring = '<div class="d12-block d12-important"><div class="d12-sc-text"><p><strong>' .
+	__ ( 'Important!', 'd12-message-blocks' )
+	. '</strong></p>' . $content . '</div></div>';
+	return $filestring;
 }
 add_shortcode( 'd12-important' , 'd12_important' );
 
 /* Notice */
 function d12_notice( $atts, $content= NULL) {
-	echo '<div class="d12-block d12-notice"><div class="d12-sc-text"><p><strong>';
-	_e( 'Notice!', 'd12-message-blocks' );
-	echo '</strong></p>' . $content . '</div></div>';
+	$filestring = '<div class="d12-block d12-notice"><div class="d12-sc-text"><p><strong>' .
+	__( 'Notice!', 'd12-message-blocks' )
+	. '</strong></p>' . $content . '</div></div>';
+	return $filestring;
 }
 add_shortcode( 'd12-notice' , 'd12_notice' );
 
 /* Error */
 function d12_error( $atts, $content= NULL) {
-	echo '<div class="d12-block d12-error"><div class="d12-sc-text"><p><strong>';
-	_e( 'Error!', 'd12-message-blocks' );
-	echo '</strong></p>' . $content . '</div></div>';
+	$filestring = '<div class="d12-block d12-error"><div class="d12-sc-text"><p><strong>' .
+	__( 'Error!', 'd12-message-blocks' )
+	. '</strong></p>' . $content . '</div></div>';
+	return $filestring;
 }
 add_shortcode( 'd12-error' , 'd12_error' );
 
 /* Caution */
 function d12_caution( $atts, $content= NULL) {
-	echo '<div class="d12-block d12-caution"><div class="d12-sc-text"><p><strong>';
-	_e( 'Caution!', 'd12-message-blocks' );
-	echo '</strong></p>' . $content . '</div></div>';
+	$filestring = '<div class="d12-block d12-caution"><div class="d12-sc-text"><p><strong>' .
+	__( 'Caution!', 'd12-message-blocks' )
+	. '</strong></p>' . $content . '</div></div>';
+	return $filestring;
 }
 add_shortcode( 'd12-caution' , 'd12_caution' );
 
 /* Archive */
 function d12_archive( $atts, $content= NULL) {
-	echo '<div class="d12-block d12-archive"><div class="d12-sc-text"><p><strong>';
-	_e( 'This page has been archived.', 'd12-message-blocks' );
-	echo '</strong></p>' . $content . '</div></div>';
+	$filestring = '<div class="d12-block d12-archive"><div class="d12-sc-text"><p><strong>' .
+	__( 'This page has been archived.', 'd12-message-blocks' )
+	. '</strong></p>' . $content . '</div></div>';
+	return $filestring;
 }
 add_shortcode( 'd12-archive' , 'd12_archive' );
 
