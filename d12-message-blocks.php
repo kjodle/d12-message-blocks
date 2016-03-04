@@ -3,7 +3,7 @@
  * Plugin Name: d12 Message Blocks
  * Plugin URI: http://kjodle.net/wordpress/d12-message-blocks/
  * Description: Adds shortcodes for message blocks.
- * Version: 2.1
+ * Version: 2.2
  * Author: Kenneth John Odle
  * Author URI: http://kjodle.net/
  * Text Domain: d12-message-blocks
@@ -174,10 +174,9 @@ function d12_part( $atts, $content= NULL) {
 			'series' => '',
 		), $atts )
 	);
-	$filestring = '<div class="d12-block d12-part"><div class="d12-sc-text"><p><strong>' .
-	printf(__( 'This page is part of a series on %s', 'd12-message-blocks' ), $series )
-	. '.</strong></p>' . $content . '</div></div>	';
-	return $filestring;
+	echo '<div class="d12-block d12-part"><div class="d12-sc-text"><p><strong>';
+	printf(__( 'This page is part of a series on %s', 'd12-message-blocks' ), $series );
+	echo '.</strong></p>' . $content . '</div></div>	';
 }
 add_shortcode( 'd12-part' , 'd12_part' );
 

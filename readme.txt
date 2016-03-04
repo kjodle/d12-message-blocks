@@ -3,8 +3,8 @@ Contributors: kjodle
 Tags: shortcodes, message blocks, posts, pages
 Donate link: http://kjodle.info/support
 Requires at least: 2.5
-Tested up to: 4.3.1
-Stable tag: 2.1
+Tested up to: 4.4.2
+Stable tag: 2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -16,9 +16,7 @@ d12 Message Blocks makes it easy for you to highlight important information on y
 
 There are two types of message blocks. The first type provides a title and prompts you for the message block's content. The second type prompts you for both a title and the content.
 
-Want to see it in action? Check out [my demo page](http://techblog.kjodle.net/2015/06/28/message-blocks-wordpress-plugin/).
-
-Want to check it out in different themes? Check out [my multi-theme demo page](http://waybeta.net/2015/07/d12-message-blocks-wordpress-plugin/).
+Want to see it in action? Check out [my demo page](http://demo.kjodle.net/wordpress/plugins/d12-message-blocks/).
 
 Questions? Suggestions? Issues? Reach out to me on Twitter at [@kjodle](http://twitter.com/#!/kjodle) or [@iswpw](http://twitter.com/#!/iswpw), or in the plugin's [support forum](https://wordpress.org/support/plugin/d12-message-blocks).
 
@@ -77,8 +75,12 @@ You can add any html you like in the popup window, and it will be passed to the 
 
 == Changelog ==
 
+= 2.2 =
+* Fixed a bug with the "Part of a Series" message block
+* Changed demo location to new plugin demo site
+
 = 2.1 = 
-*Fixed an issue with some shortcodes appearing at the beginning of the post instead of where they were inserted in post.
+* Fixed an issue with some shortcodes appearing at the beginning of the post instead of where they were inserted in post.
 
 = 2.0 =
 * Added an option page allowing users to select from 10 different border styles and 11 different color schemes.
