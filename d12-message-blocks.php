@@ -3,7 +3,7 @@
  * Plugin Name: d12 Message Blocks
  * Plugin URI: http://kjodle.net/wordpress/d12-message-blocks/
  * Description: Adds shortcodes for message blocks.
- * Version: 2.2
+ * Version: 2.4
  * Author: Kenneth John Odle
  * Author URI: http://kjodle.net/
  * Text Domain: d12-message-blocks
@@ -35,37 +35,37 @@ function d12bs_retrieve() {
 	$mbbsoptions = get_option('d12mb_options');
 	switch($mbbsoptions['bs']) {
 		case "1" :
-			wp_enqueue_style( 'd12mb', plugins_url('css/bs-round-single-thin.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12mb', plugins_url('css/bs-round-single-thin.css', __FILE__), false, '2.3' );
 			break;
 		case "2" :
-			wp_enqueue_style( 'd12mb', plugins_url('css/bs-round-single-thick.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12mb', plugins_url('css/bs-round-single-thick.css', __FILE__), false, '2.3' );
 			break;
 		case "3" :
-			wp_enqueue_style( 'd12mb', plugins_url('css/bs-round-double.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12mb', plugins_url('css/bs-round-double.css', __FILE__), false, '2.3' );
 			break;
 		case "4" :
-			wp_enqueue_style( 'd12mb', plugins_url('css/bs-square-single-thin.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12mb', plugins_url('css/bs-square-single-thin.css', __FILE__), false, '2.3' );
 			break;
 		case "5" :
-			wp_enqueue_style( 'd12mb', plugins_url('css/bs-square-single-thick.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12mb', plugins_url('css/bs-square-single-thick.css', __FILE__), false, '2.3' );
 			break;
 		case "6" :
-			wp_enqueue_style( 'd12mb', plugins_url('css/bs-square-double.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12mb', plugins_url('css/bs-square-double.css', __FILE__), false, '2.3' );
 			break;
 		case "7" :
-			wp_enqueue_style( 'd12mb', plugins_url('css/bs-mw-thick-thin.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12mb', plugins_url('css/bs-mw-thick-thin.css', __FILE__), false, '2.3' );
 			break;
 		case "8" :
-			wp_enqueue_style( 'd12mb', plugins_url('css/bs-mw-thick-thick.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12mb', plugins_url('css/bs-mw-thick-thick.css', __FILE__), false, '2.3' );
 			break;
 		case "9" :
-			wp_enqueue_style( 'd12mb', plugins_url('css/bs-mw-thin-thick.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12mb', plugins_url('css/bs-mw-thin-thick.css', __FILE__), false, '2.3' );
 			break;
 		case "10" :
-			wp_enqueue_style( 'd12mb', plugins_url('css/bs-mw-thin-thin.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12mb', plugins_url('css/bs-mw-thin-thin.css', __FILE__), false, '2.3' );
 			break;
 		default:
-			wp_enqueue_style( 'd12mb', plugins_url('css/bs-round-single-thick.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12mb', plugins_url('css/bs-round-single-thick.css', __FILE__), false, '2.3' );
 			return;
 	}
 }
@@ -77,52 +77,59 @@ function d12cs_retrieve() {
 	$mbcsoptions = get_option('d12mb_options');
 	switch($mbcsoptions['cs']) {
 		case "1" :
-			wp_enqueue_style( 'd12cs', plugins_url('css/cs-default.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12cs', plugins_url('css/cs-default.css', __FILE__), false, '2.3' );
 			break;
 		case "2" :
-			wp_enqueue_style( 'd12cs', plugins_url('css/cs-business.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12cs', plugins_url('css/cs-business.css', __FILE__), false, '2.3' );
 			break;
 		case "3" :
-			wp_enqueue_style( 'd12cs', plugins_url('css/cs-beach.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12cs', plugins_url('css/cs-beach.css', __FILE__), false, '2.3' );
 			break;
 		case "4" :
-			wp_enqueue_style( 'd12cs', plugins_url('css/cs-sol.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12cs', plugins_url('css/cs-sol.css', __FILE__), false, '2.3' );
 			break;
 		case "5" :
-			wp_enqueue_style( 'd12cs', plugins_url('css/cs-aqua.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12cs', plugins_url('css/cs-aqua.css', __FILE__), false, '2.3' );
 			break;
 		case "6" :
-			wp_enqueue_style( 'd12cs', plugins_url('css/cs-forest.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12cs', plugins_url('css/cs-forest.css', __FILE__), false, '2.3' );
 			break;
 		case "7" :
-			wp_enqueue_style( 'd12cs', plugins_url('css/cs-winter.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12cs', plugins_url('css/cs-winter.css', __FILE__), false, '2.3' );
 			break;
 		case "8" :
-			wp_enqueue_style( 'd12cs', plugins_url('css/cs-magique.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12cs', plugins_url('css/cs-magique.css', __FILE__), false, '2.3' );
 			break;
 		case "9" :
-			wp_enqueue_style( 'd12cs', plugins_url('css/cs-solstice.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12cs', plugins_url('css/cs-solstice.css', __FILE__), false, '2.3' );
 			break;
 		case "10" :
-			wp_enqueue_style( 'd12cs', plugins_url('css/cs-bark.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12cs', plugins_url('css/cs-bark.css', __FILE__), false, '2.3' );
 			break;
 		case "11" :
-			wp_enqueue_style( 'd12cs', plugins_url('css/cs-leaves.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12cs', plugins_url('css/cs-leaves.css', __FILE__), false, '2.3' );
 			break;
 		case "12" :
-			wp_enqueue_style( 'd12cs', plugins_url('css/cs-bw.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12cs', plugins_url('css/cs-bw.css', __FILE__), false, '2.3' );
 			break;
 		default:
-			wp_enqueue_style( 'd12cs', plugins_url('css/cs-default.css', __FILE__), false, '1.1.0' );
+			wp_enqueue_style( 'd12cs', plugins_url('css/cs-default.css', __FILE__), false, '2.3' );
 			return;
 	}
 }
 add_action( 'wp_enqueue_scripts', 'd12cs_retrieve' );
 
 
+/* Enqueue a mobile style sheet if necessary */
+function d12_shortcodes_mobile_style() {
+	wp_enqueue_style( 'd12mb-mobilestyle', plugins_url( '/css/d12mb-mobile.css', __FILE__), array(), '2.3', 'screen and (max-width: 640px)' );
+}
+add_action( 'wp_enqueue_scripts', 'd12_shortcodes_mobile_style' );
+
+
 /* Enqueue our back end style sheet */
 function d12_shortcodes_admin_styles() {
-	wp_enqueue_style( 'd12mb-screenstyle', plugins_url( '/css/admin.css', __FILE__, '1.0', 'screen' ) );
+	wp_enqueue_style( 'd12mb-screenstyle', plugins_url( '/css/d12mb-admin.css', __FILE__) , array(), '2.3', 'screen' );
 }
 add_action( 'admin_enqueue_scripts', 'd12_shortcodes_admin_styles' );
 

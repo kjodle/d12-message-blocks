@@ -1,0 +1,213 @@
+.d12-block {
+	margin: 10px auto;
+	width: 85%;
+	border: solid 2px #000;
+	border-radius: 4px;
+	padding: 10px 10px 10px 54px;
+	}
+.d12-block p:first-child {
+	margin-top: 0px;
+	border-bottom: solid 1px #000;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	font-size: 1.2em;
+	}
+.d12-block ul {
+	margin-left: 14px !important;
+	}
+
+/*
+	Don't need this class right now, but let's save it.
+	We can use it in future updates. 
+	Plugin adopters can also style this text using a child theme.
+*/
+.d12-sc-text {
+	}
+
+/* Nutshell */
+.d12-nutshell {
+	border-color: #8C4815;
+	background: #FFEFCF url(../images/acorn.png) no-repeat 10px 10px;
+	}
+.d12-nutshell p:first-child {
+	color: #8c4815;
+	border-color: #8C4815;
+	}
+
+/* Updates */
+.d12-update {
+	border-color: #4282B6;
+	background: #EFF6FA url(../images/update.png) no-repeat 10px 10px;
+	}
+.d12-update p:first-child {
+	color: #4282B6;
+	border-color: #4282B6;
+	}
+
+/* Attachments */
+.d12-attach {
+	border-color: #404777;
+	background: #F6F7F8 url(../images/attach.png) no-repeat 10px 10px;
+	}
+.d12-attach p:first-child {
+	color: #404777;
+	border-color: #404777;
+	}
+
+/* Deletion */
+.d12-delete {
+	border-color: #A60B05;
+	background: #FCEDEB url(../images/delete.png) no-repeat 10px 10px;
+	}
+.d12-delete p:first-child {
+	color: #A60B05;
+	border-color: #A60B05;
+	}
+
+/* Part of a Series */
+.d12-part {
+	border-color: #333;
+	background: #eee url(../images/cog.png) no-repeat 10px 10px;
+	}
+.d12-part p:first-child {
+	color: #333;
+	border-color: #333;
+	}
+
+/* Mentions */
+.d12-mention {
+	border-color: #0B5DA1;
+	background: #FFF5DB url(../images/mentions.png) no-repeat 10px 10px;
+	}
+.d12-mention p:first-child {
+	color: #0B5DA1;
+	border-color: #0B5DA1;
+	}
+
+/* Warning */
+.d12-warning {
+	border-color: #D56D01;
+	background: #fafafa url(../images/warning.png) no-repeat 10px 10px;
+	}
+.d12-warning p:first-child {
+	color: #D56D01;
+	border-color: #D56D01;
+	}
+
+/* Important */
+.d12-important {
+	border-color: #BF3829;
+	background: #FFF7F7 url(../images/important.png) no-repeat 10px 10px;
+	}
+.d12-important p:first-child {
+	color: #BF3829;
+	border-color: #BF3829;
+	}
+
+/* Notice */
+.d12-notice {
+	border-color: #D56D01;
+	background: #fafafa url(../images/notice.png) no-repeat 10px 10px;
+	}
+.d12-notice p:first-child {
+	color: #D56D01;
+	border-color: #D56D01;
+	}
+
+/* Error */
+.d12-error {
+	border-color: #C13A29;
+	background: #FFF5F5 url(../images/error.png) no-repeat 10px 10px;
+	}
+.d12-error p:first-child {
+	color: #C13A29;
+	border-color: #C13A29;
+	}
+
+/* Caution */
+.d12-caution {
+	border-color: #D56D01;
+	background: #fafafa url(../images/caution.png) no-repeat 10px 10px;
+	}
+.d12-caution p:first-child {
+	color: #D56D01;
+	border-color: #D56D01;
+	}
+
+/* Archive */
+.d12-archive {
+	border-color: #0B5DA1;
+	background: #eee url(../images/archive.png) no-repeat 10px 10px;
+	}
+.d12-archive p:first-child {
+	color: #0B5DA1;
+	border-color: #0B5DA1;
+	}
+
+/* Support */
+.d12-support {
+	border-color: #CD0000;
+	background: #fff url(../images/support.png) no-repeat 10px 10px;
+	}
+.d12-support p:first-child {
+	color: #CD0000;
+	border-color: #CD0000;
+	}
+
+/* Contact */
+.d12-contact {
+	border-color: #630;
+	background: #fff url(../images/contact.png) no-repeat 10px 10px;
+	}
+.d12-contact p:first-child {
+	color: #630;
+	border-color: #630;
+	}
+
+/* Global */
+.d12-global {
+	border-color: #074;
+	background: #fff url(../images/global.png) no-repeat 10px 10px;
+	}
+.d12-global p:first-child {
+	color: #074;
+	border-color: #074;
+	}
+
+/* Green */
+.d12-green {
+	border-color: #427D00;
+	background: #fff url(../images/green.png) no-repeat 10px 10px;
+	}
+.d12-green p:first-child {
+	color: #427D00;
+	border-color: #427D00;
+	}
+
+/* Accept */
+.d12-accept {
+	border-color: #99C700;
+	background: #fff url(../images/okay.png) no-repeat 10px 10px;
+	}
+.d12-accept p:first-child {
+	color: #427D00;
+	border-color: #99C700;
+	}
+
+/* Stats */
+.d12-stats {
+	border-color: #376EA3;
+	background: #fff url(../images/statistics.png) no-repeat 10px 10px;
+	}
+.d12-stats p:first-child {
+	color: #376EA3;
+	border-color: #376EA3;
+	}
+
+@media screen and (max-width: 640px) {
+.d12-block {
+	margin: 0.5rem 0;
+	width: 100%;
+	}
+
+}

@@ -3,8 +3,8 @@ Contributors: kjodle
 Tags: shortcodes, message blocks, posts, pages
 Donate link: http://kjodle.info/support
 Requires at least: 2.5
-Tested up to: 4.4.2
-Stable tag: 2.2
+Tested up to: 4.7.4
+Stable tag: 2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -74,6 +74,11 @@ You can add any html you like in the popup window, and it will be passed to the 
 
 
 == Changelog ==
+= 2.4 =
+* Made blocks full-width in mobile views
+
+= 2.3 =
+* Fixed a bug with stylesheets not loading
 
 = 2.2 =
 * Fixed a bug with the "Part of a Series" message block
@@ -92,6 +97,9 @@ You can add any html you like in the popup window, and it will be passed to the 
 * Initial release
 
 == Upgrade Notice ==
+
+= 2.3 =
+This upgrade fixes a bug with stylesheets not loading, which caused the message blocks to not appear properly.
 
 = 2.0 =
 You can now change color schemes or border styles from the plugin's options page.
